@@ -19,10 +19,10 @@ By default, the Amiga OS will only show files that have matching ".info" data fi
 
 The final step is to add the text line "Assign >NIL: LASERMAX: LASER:LASERMAX" to the "Startup-Sequence" text file found in the "S" directory.  To do this, open the "Tools" folder found in "Workbench" and double click on text editor called "MEmacs".  Select "Read-file" from the menu and type the filename "S:Startup-Sequence" to open it. Add the line "Assign >NIL: LASERMAX: LASER:LASERMAX" by typing it just under where the existing "Assign >NIL: ...." lines are. Save the modified file by selecting "Save-file" from the menu and then "Quit".  Now restart the emulator for the changes to take effect.
 
-That's it! You can now play with your new LASER controller software by opening the "LASERMAX" folder and double clicking on the "LASERMAX" icon.  The first step to do from within the software, is to load a configuration file. Select "Get config" from the menu and Load the "HiSpeedA3000.config" file. This will load up some sequences on the sequence buttons for you to play with.
+That's it! You can now play with your new LASER controller software by opening the "LASERMAX" folder and double clicking on the "LASERMAX" icon.  The first step to do from within the software is to load a configuration file. Select "Get config" from the menu and Load the "HiSpeedA3000.config" file. This will load up some sequences on the sequence buttons for you to play with.
 
 The original user manual had been converted to pdf and can be found in the release zip. Please ignore the "Shareware" notices - it is now provided for free.
 
 I have included the source code on this release. Unfortunately, I no longer have the "GadToolBox" generated source code file ("Laser.s") that is needed to recompile it. Note that the software was hand written in 68020 assembler!   
 
-Enjoy
+Enjoy.

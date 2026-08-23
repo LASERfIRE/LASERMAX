@@ -2,7 +2,7 @@
 
 Version 1.30 31-Jan-1999
 
-This is the original Amiga version of my LASER controller software which I have released here for historically value.
+This is the original Amiga version of my LASER controller software which I have released here for historical value.
 
 The software used the Amiga's sound hardware (that is modified to allow for a DC offset by bypassing the AC coupling capacitors) to drive X/Y scanners (via the "build it yourself" DC amp). Instructions for the sound hardware modification are found in the user manual. The original scans of my hand drawn DC amp circuit and parts list, along with the user manual are included in the release zip.     
 

@@ -1,0 +1,31 @@
+
+     *********************************
+     *                               *
+     *   LASERMAX LASER controller   *
+     *      Screen file format       *
+     *                               *
+     *********************************
+
+
+  0 - ID string: "LASERMAX screen v1.00",null (22 bytes)
+ 22 - Flags: Bits 0-Auto retrace, 1-Hi res, 2-Filter (Word)
+                  3-3D (Z data), 4-16bit
+                  6-Invert X (Lf), 7-Invert Y (Lf)
+ 24 - Volume 0 (Word)
+ 26 - Volume 1 (Word)
+ 28 - Volume 2 (Word)
+ 30 - Volume 3 (Word)
+ 32 - Frequency 0 (Word)
+ 34 - Frequence 1 (Word)
+ 36 - Frequence 2 (Word)
+ 38 - Frequence 3 (Word)
+ 40 - Phase 1 (Word)
+ 42 - Phase 2 (Word)
+ 44 - Phase 3 (Word)
+ 46 - Length 0 or X data (Long word)
+ 50 - Length 1 or Y data (Long word) (Same as X data)
+ 54 - Length 2 (Long word) (Not used)
+ 58 - Length 3 (Long word) (Not used)
+ 62 - X data (bytes)
+      Y data (bytes)
+      Z data (bytes) (Optional, see flags)

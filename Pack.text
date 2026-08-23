@@ -1,0 +1,16 @@
+
+     *********************************
+     *                               *
+     *   LASERMAX LASER controller   *
+     *    Screen pack file format    *
+     *                               *
+     *********************************
+
+
+     0 - ID string: "LASERMAX pack v1.00",null (20 bytes)
+    20 - Number of screens in this pack (Word)
+    22 - Filename/Screen name (41 bytes)
+    63 - Reserved (1 byte)
+    64 - Screen structure (SS)
+    SS - (Next filename)
+ SS+42 - (Next screen structure)

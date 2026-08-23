@@ -21,7 +21,7 @@ The final step is to add the text line "Assign >NIL: LASERMAX: LASER:LASERMAX" t
 
 That's it! You can now play with your new LASER controller software by opening the "LASERMAX" folder and double clicking on the "LASERMAX" icon.  The first step to do from within the software is to load a configuration file. Select "Get config" from the menu and Load the "HiSpeedA3000.config" file. This will load up some sequences on the sequence buttons for you to play with.
 
-The original user manual had been converted to pdf and can be found in the release zip. Please ignore the "Shareware" notices - it is now provided for free.
+The original user manual has been converted to pdf and can be found in the release zip. Please ignore the "Shareware" notices - it is now provided for free.
 
 I have included the source code on this release. Unfortunately, I no longer have the "GadToolBox" generated source code file ("Laser.s") that is needed to recompile it. Note that the software was hand written in 68020 assembler!   
 
